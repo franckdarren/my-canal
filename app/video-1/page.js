@@ -9,6 +9,7 @@ export default function Video1() {
                 <Image
                     src={video}
                     alt="Description de l'image"
+                    className="lg:h-[400px] lg:w-auto lg:mt-[20px]"
                 />
                 <h2 className="font-bold text-[30px] text-center text-white pt-[20px]"></h2>
                 <p className="mt-3 px-5 text-[20px] text-center text-white"></p>

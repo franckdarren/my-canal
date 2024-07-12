@@ -4,11 +4,12 @@ import Link from 'next/link'
 
 export default function Video5() {
     return (
-        <main className="flex min-h-screen flex-col items-center pt-[20px] bg-black">
+        <main className="flex min-h-screen flex-col items-center pt-[20px]">
             <div className="">
                 <Image
                     src={video}
                     alt="Description de l'image"
+                    className="lg:h-[400px] lg:w-auto lg:mt-[20px]"
                 />
                 <h2 className="font-bold text-[30px] text-center text-white pt-[20px]"></h2>
                 <p className="mt-3 px-5 text-[20px] text-center text-white"></p>
