@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from "next/image";
-import felicitation from '../../public/congratulations-7600_512.gif'
+import felicitation from '../../public/congratulations-7600_128.gif'
 
 export default function Final() {
     return (
@@ -10,7 +10,7 @@ export default function Final() {
             <Image
                 src={felicitation}
                 alt="Description de l'image"
-                className="h-[400px] my-auto"
+                className="h-[400px] w-auto my-auto"
             />
         </div>
 
