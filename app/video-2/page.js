@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image1 from '../../public/logo.png';
+import video from '../../public/video.jpeg';
 import Link from 'next/link'
 
 export default function Video2() {
@@ -7,7 +7,7 @@ export default function Video2() {
         <main className="flex min-h-screen flex-col items-center pt-[20px] bg-black">
             <div className="">
                 <Image
-                    src={image1}
+                    src={video}
                     alt="Description de l'image"
                 />
                 <h2 className="font-bold text-[30px] text-center text-white pt-[20px]"></h2>

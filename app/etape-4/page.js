@@ -10,7 +10,7 @@ export default function Etape4() {
                     <rect width="600" height="600" style={{ fill: '#d8d2d2', strokeWidth: 3, stroke: 'white' }} />
                 </svg>
             </div>
-            <Link href="/etape-5" className="text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5  focus:outline-none mt-[40px]">Continuer le défis</Link>
+            <Link href="/video-4" className="text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5  focus:outline-none mt-[40px]">Continuer le défis</Link>
 
 
         </div>
