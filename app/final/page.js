@@ -10,7 +10,7 @@ export default function Final() {
             <Image
                 src={felicitation}
                 alt="Description de l'image"
-                className="h-[400px] w-auto my-auto"
+                className="h-[400px] w-auto mt-[50px]"
             />
         </div>
 
