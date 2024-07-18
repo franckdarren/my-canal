@@ -18,18 +18,19 @@ export default function Etape1() {
                     alt="Description de l'image"
                     className="lg:h-[300px] lg:w-auto lg:mt-[20px]"
                 /> */}
-                <QrReader
-                    className="lg:h-[300px] lg:w-auto lg:mt-[20px]"
-                    onResult={(result, error) => {
-                        if (!!result) {
-                            setData(result?.text);
-                        }
+                <div className="lg:h-[300px] lg:w-auto lg:mt-[20px]">
+                    <QrReader
+                        onResult={(result, error) => {
+                            if (!!result) {
+                                setData(result?.text);
+                            }
 
-                        if (!!error) {
-                            console.info(error);
-                        }
-                    }}
-                />
+                            if (!!error) {
+                                console.info(error);
+                            }
+                        }}
+                    />
+                </div>
                 <p>{data}</p>
             </div>
             <Link href="/video-1" className="text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5  focus:outline-none mt-[40px]">Continuer le défis</Link>
