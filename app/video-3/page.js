@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Video from 'next-video';
-import video3 from '/videos/comment-intaller-mycanal';
+import video3 from '/videos/comment-intaller-mycanal.mp4';
 import { useState, useEffect } from 'react';
 
 
