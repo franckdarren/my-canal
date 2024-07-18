@@ -19,6 +19,7 @@ export default function Etape1() {
                     className="lg:h-[300px] lg:w-auto lg:mt-[20px]"
                 /> */}
                 <QrReader
+                    className="lg:h-[300px] lg:w-auto lg:mt-[20px]"
                     onResult={(result, error) => {
                         if (!!result) {
                             setData(result?.text);
@@ -27,13 +28,7 @@ export default function Etape1() {
                         if (!!error) {
                             console.info(error);
                         }
-
-                    }
-                    }
-                    //this is facing mode : "environment " it will open backcamera of the smartphone and if not found will 
-                    // open the front camera
-                    constraints={{ facingMode: "environment" }}
-                    style={{ width: "40%", height: "40%" }}
+                    }}
                 />
                 <p>{data}</p>
             </div>
