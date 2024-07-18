@@ -1,8 +1,5 @@
 "use client"
-import React, { useState, useRef } from "react";
-import Link from 'next/link';
-import Image from "next/image";
-import qrcode from '../../public/qrcode.jpeg';
+import React, { useState, useEffect } from "react";
 import { QrReader } from "react-qr-reader";
 import { useRouter } from 'next/navigation';
 
