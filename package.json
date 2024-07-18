@@ -12,7 +12,9 @@
     "next": "14.2.5",
     "next-video": "^1.1.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-qr-code": "^2.0.15",
+    "react-qr-reader": "^3.0.0-beta-1"
   },
   "devDependencies": {
     "eslint": "^8",
