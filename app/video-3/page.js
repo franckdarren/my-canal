@@ -1,9 +1,8 @@
 "use client"
 
-import Image from "next/image";
 import Link from 'next/link';
 import Video from 'next-video';
-import video1 from '/videos/creer-compte.mp4';
+import video3 from '/videos/comment-intaller-mycanal';
 import { useState, useEffect } from 'react';
 
 
@@ -28,13 +27,13 @@ export default function Video3() {
     return (
         <main className="flex min-h-screen flex-col items-center pt-[20px]">
             <div className="">
-                <Video src={video1}
+                <Video src={video3}
                     className="lg:h-[400px] lg:w-auto lg:mt-[20px]"
                     id="myVideo"
                 />
             </div>
 
-            <Link href="/indice-3" className={`text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5 focus:outline-none mt-[40px] ${isLinkDisabled ? 'pointer-events-none opacity-20' : ''
+            <Link href="/final" className={`text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5 focus:outline-none mt-[40px] ${isLinkDisabled ? 'pointer-events-none opacity-20' : ''
                 }`}>Continuer</Link>
         </main>
     );

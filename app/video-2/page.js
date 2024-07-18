@@ -1,9 +1,8 @@
 "use client"
 
-import Image from "next/image";
 import Link from 'next/link';
 import Video from 'next-video';
-import video1 from '/videos/creer-compte.mp4';
+import video2 from '/videos/fonctionnalite-hors-ligne.mp4';
 import { useState, useEffect } from 'react';
 
 
@@ -28,7 +27,7 @@ export default function Video2() {
     return (
         <main className="flex min-h-screen flex-col items-center pt-[20px]">
             <div className="">
-                <Video src={video1}
+                <Video src={video2}
                     className="lg:h-[400px] lg:w-auto lg:mt-[20px]"
                     id="myVideo"
                 />

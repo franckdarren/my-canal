@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import Link from 'next/link';
 import Video from 'next-video';
 import video1 from '/videos/creer-compte.mp4';
