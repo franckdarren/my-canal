@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from "next/image";
-import qrcode from '../../public/qrcode.jpeg'
+import qrcode from '../../public/qrcode.jpeg';
 
 export default function Etape1() {
     return (
@@ -15,8 +15,6 @@ export default function Etape1() {
                 />
             </div>
             <Link href="/video-1" className="text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5  focus:outline-none mt-[40px]">Continuer le défis</Link>
-
-
         </div>
     );
 }
