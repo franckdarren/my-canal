@@ -16,10 +16,10 @@ export default function Etape3() {
 
     return (
         <div className="flex min-h-screen flex-col items-center pt-[20px] bg-black">
-            <h1 className="font-bold text-whitefont-bold text-[30px] text-center text-white pt-[5px]">Arrêt 1</h1>
-            <h2 className="font-bold text-[20px] text-center text-white pt-[20px] px-3">Scannez le QR code à l&apos;entrée pour débuter votre aventure MyCanal et découvrir une introduction spéciale.</h2>
+            <h1 className="font-bold text-whitefont-bold text-[30px] text-center text-white pt-[5px]">Arrêt 3</h1>
+            <h2 className="font-bold text-[20px] text-center text-white pt-[20px] px-5">Scannez le QR code à l&apos;entrée pour débuter votre aventure MyCanal et découvrir une introduction spéciale.</h2>
             <div className="mx-auto mt-9">
-                <div className="lg:h-[300px] lg:w-auto lg:mt-[20px] bg-white">
+                <div className="lg:h-[300px] lg:w-auto lg:mt-[20px]">
                     <QrReader
                         onResult={(result, error) => {
                             if (!!result) {
@@ -38,7 +38,7 @@ export default function Etape3() {
                         style={{ width: "40%", height: "40%" }}
                     />
                 </div>
-                <p className="text-white hidden">{data}</p>
+                <p className="h-[200px] w-[300px]">{data}</p>
             </div>
         </div>
     );

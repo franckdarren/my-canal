@@ -3,6 +3,9 @@ import logo from '../public/logo.png';
 import Link from 'next/link';
 import Video from 'next-video';
 import video1 from '/videos/creer-compte.mp4';
+import video2 from '/videos/fonctionnalite-hors-ligne.mp4';
+import video3 from '/videos/comment-intaller-mycanal.mp4';
+
 
 export default function Home() {
   return (
@@ -17,10 +20,18 @@ export default function Home() {
         <p className="mt-3 px-5 text-[20px] text-center text-white lg:mx-[10%]">Bienvenue à la Chasse au Trésor MyCanal à la Baie des Rois ! Explorez des lieux emblématiques, scannez des QR codes, et découvrez les fonctionnalités et contenus exclusifs de MyCanal. <br /> Prêts à relever le défi et à gagner des récompenses ?</p>
       </div>
       <Link href="/etape-1" className="text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5  focus:outline-none mt-[40px]">Commencer le défis</Link>
-      
+
       {/* Chargement de toutes les videos */}
       <div>
         <Video src={video1}
+          className="lg:h-[400px] lg:w-auto lg:mt-[20px] hidden"
+          id="myVideo"
+        />
+        <Video src={video2}
+          className="lg:h-[400px] lg:w-auto lg:mt-[20px] hidden"
+          id="myVideo"
+        />
+        <Video src={video3}
           className="lg:h-[400px] lg:w-auto lg:mt-[20px] hidden"
           id="myVideo"
         />
