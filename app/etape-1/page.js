@@ -38,7 +38,7 @@ export default function Etape1() {
                         style={{ width: "40%", height: "40%" }}
                     />
                 </div>
-                <p className="text-black">{data}</p>
+                <p className="text-white">{data}</p>
             </div>
             {/* <Link href="/video-1" className="text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5  focus:outline-none mt-[40px]">Continuer le défis</Link> */}
         </div>
