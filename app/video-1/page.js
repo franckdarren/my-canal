@@ -34,7 +34,7 @@ export default function Video1() {
                 />
             </div>
 
-            <Link href="/indice-1" className={`text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5 focus:outline-none mt-[40px] ${isLinkDisabled ? 'pointer-events-none opacity-50' : ''
+            <Link href="/indice-1" className={`text-white text-[20px] bg-[#d90000] hover:bg-[#571818] font-medium rounded-lg px-5 py-2.5 focus:outline-none mt-[40px] ${isLinkDisabled ? 'pointer-events-none opacity-20' : ''
                 }`}>Continuer</Link>
         </main>
     );
