@@ -19,7 +19,7 @@ export default function Etape1() {
             <h1 className="font-bold text-whitefont-bold text-[30px] text-center text-white pt-[5px]">Arrêt 1</h1>
             <h2 className="font-bold text-[20px] text-center text-white pt-[20px] px-3">Scannez le QR code à l&apos;entrée pour débuter votre aventure MyCanal et découvrir une introduction spéciale.</h2>
             <div className="mx-auto mt-9">
-                <div className="lg:h-[300px] lg:w-auto lg:mt-[20px]">
+                <div className="lg:h-[300px] lg:w-auto lg:mt-[20px] bg-white">
                     <QrReader
                         onResult={(result, error) => {
                             if (!!result) {
